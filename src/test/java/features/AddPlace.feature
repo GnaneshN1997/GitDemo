@@ -14,7 +14,7 @@ Feature: Validating place API's
 			| AlluArjun |	JubileeHills | Telugu   |
 #			| RamCharan | BanjaraHills | Telugu   |	
 
-	@DeletePlace
+	@DeletePl ace
 	Scenario: Verify if delete Place functionality is working
 		Given delete place payload
 		When user calls "deletePlaceAPI" with "DELETE" http request
